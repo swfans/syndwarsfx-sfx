@@ -1,4 +1,3 @@
-english_beta_demo
 NULL.WAV
 NULL.WAV
 combat_sounds/SPLASH.WAV

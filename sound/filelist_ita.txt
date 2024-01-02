@@ -1,4 +1,3 @@
-italian_language
 weapons/ATOMSUK6.WAV
 weapons/MEDIKIT.WAV
 combat_sounds/SPLASH.WAV
