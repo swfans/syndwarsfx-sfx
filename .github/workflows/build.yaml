@@ -50,7 +50,7 @@ jobs:
       - name: Install dependencies
         run: |
           apt install -y \
-            build-essential autoconf libtool make wget unzip
+            build-essential autoconf autoconf-archive libtool make wget unzip
 
       - name: Download extra tools
         run: |

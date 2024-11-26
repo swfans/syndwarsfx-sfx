@@ -18,7 +18,9 @@ AC_DEFINE([PARENT_PACKAGE], [parent_package], [Name of the parent package, for w
 
 AC_CONFIG_SRCDIR([sound/null.wav])
 # We use header file as means to transfer properties to automation scripts
-AC_CONFIG_HEADERS([sfx_config.h])
+AC_CONFIG_HEADERS([sfxprivconfig.h])
+AX_PREFIX_CONFIG_H([sfx_config.h], [SFX])
+AC_CONFIG_MACRO_DIRS([m4])
 
 AC_CANONICAL_HOST
 AC_CANONICAL_TARGET
