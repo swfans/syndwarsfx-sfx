@@ -74,7 +74,7 @@ jobs:
         run: |
           cd release
           # Get version marking from C header
-          PKG_VERSION=$(sed -n 's/^#define[ ]\+PACKAGE_VERSION "\([^"]\+\)"$/\1/p' sfx_config.h | head -n 1 | tr '.' '_')
+          PKG_VERSION=$(sed -n 's/^#define[ ]\+SFX_PACKAGE_VERSION "\([^"]\+\)"$/\1/p' sfx_config.h | head -n 1 | tr '.' '_')
           make V=1 DESTDIR=$PWD/pkg install
           echo "PKG_NAME=swars-sfx-$PKG_VERSION" >> $GITHUB_ENV
 
