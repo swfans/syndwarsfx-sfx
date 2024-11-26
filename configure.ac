@@ -16,7 +16,7 @@ AC_INIT([Syndicate Wars SFX], [swars_sfx_version], [mefistotelis@gmail.com], [sw
 m4_define([parent_package], [swars])
 AC_DEFINE([PARENT_PACKAGE], [parent_package], [Name of the parent package, for which this one provides data files])
 
-AC_CONFIG_SRCDIR([data/nfra-0.ani])
+AC_CONFIG_SRCDIR([sound/null.wav])
 # We use header file as means to transfer properties to automation scripts
 AC_CONFIG_HEADERS([sfx_config.h])
 

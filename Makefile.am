@@ -1,4 +1,3 @@
-ACLOCAL_AMFLAGS = --install -I m4
 
 sounddat_DATA = sound/sound.dat
 sounddatdir = $(prefix)/$(PARENT_PACKAGE)/sound
