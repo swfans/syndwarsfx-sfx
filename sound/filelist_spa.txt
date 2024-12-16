@@ -43,7 +43,7 @@ combat_sounds/manshot3.wav
 combat_sounds/manshot4.wav
 combat_sounds/manshot5.wav
 weapons/stasisz.wav
-in_game/domeopen.WAV
+in_game/domeopen.wav
 explosions/bcollx1.wav
 explosions/bcollend.wav
 vehicles/tankarm.wav
