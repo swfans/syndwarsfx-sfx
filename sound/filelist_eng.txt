@@ -43,7 +43,7 @@ combat_sounds/MANSHOT3.WAV
 combat_sounds/MANSHOT4.WAV
 combat_sounds/MANSHOT5.WAV
 weapons/STASISZ.WAV
-NULL.WAV
+in_game/domeopen.WAV
 explosions/BCOLLX1.WAV
 explosions/BCOLLEND.WAV
 vehicles/TANKARM.WAV
@@ -97,7 +97,7 @@ vehicles/JETFALL2.WAV
 weapons/SSHLDON.WAV
 vehicles/TRAINGO.WAV
 vehicles/TRAINCOM.WAV
-NULL.WAV
+vehicles/mech.wav
 NULL.WAV
 NULL.WAV
 NULL.WAV
