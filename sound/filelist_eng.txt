@@ -97,8 +97,8 @@ vehicles/jetfall2.wav
 weapons/sshldon.wav
 vehicles/traingo.wav
 vehicles/traincom.wav
-null.wav
-null.wav
+vehicles/mech.wav
+in_game/domeopen.wav
 null.wav
 null.wav
 null.wav

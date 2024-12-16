@@ -98,6 +98,7 @@ weapons/sshldon.wav
 vehicles/traingo.wav
 vehicles/traincom.wav
 vehicles/mech.wav
+in_game/domeopen.wav
 null.wav
 null.wav
 null.wav
