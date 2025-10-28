@@ -1,6 +1,6 @@
-# swars-gfx
+# syndwarsfx-sfx
 
-GFX files for Syndicate Wars Fan Expansion.
+SFX files for Syndicate Wars Fan Expansion.
 
 ## Legal Stuff
 
