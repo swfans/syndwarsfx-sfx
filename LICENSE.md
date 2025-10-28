@@ -1,6 +1,6 @@
 # swars-gfx
 
-GFX files for Syndicate Wars Port.
+GFX files for Syndicate Wars Fan Expansion.
 
 ## Legal Stuff
 
