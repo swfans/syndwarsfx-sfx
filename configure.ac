@@ -8,12 +8,12 @@ m4_define([ver_release], [1])
 # Set build number to commit count only if ".git" folder is present
 m4_define([ver_build], m4_if(m4_esyscmd_s([ls -1 -d ".git" 2>&1]),.git,[m4_esyscmd_s([git rev-list --count HEAD])],[0]))
 
-m4_define([swars_sfx_version],
+m4_define([syndwarsfx_sfx_version],
       [ver_major.ver_minor.ver_release.ver_build])
 
-AC_INIT([Syndicate Wars SFX], [swars_sfx_version], [mefistotelis@gmail.com], [swars_sfx])
+AC_INIT([SyndWarsFX SFX], [syndwarsfx_sfx_version], [mefistotelis@gmail.com], [syndwarsfx_sfx])
 
-m4_define([parent_package], [swars])
+m4_define([parent_package], [syndwarsfx])
 AC_DEFINE([PARENT_PACKAGE], [parent_package], [Name of the parent package, for which this one provides data files])
 
 AC_CONFIG_SRCDIR([sound/null.wav])
