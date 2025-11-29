@@ -19,10 +19,24 @@ sound/sound_swe.dat: $(top_srcdir)/sound/filelist_swe.txt
 
 sound/syncreds.dat: $(top_srcdir)/syncreds/filelist_credits.txt
 
+instrumconf_DATA = sound/midipats.cfg
+instrumconfdir = $(prefix)/$(PARENT_PACKAGE)/sound
+
+sound/%.cfg: $(top_srcdir)/instruments/%.cfg
+	$(MKDIR_P) "$(@D)"
+	cp -p "$<" "$@"
+
+instrumpats_DATA = sound/Tone_000/000_Acoustic_Grand_Piano.pat sound/Tone_000/004_Electric_Piano_1_Rhodes.pat
+instrumpatsdir = $(prefix)/$(PARENT_PACKAGE)/sound/Tone_000
+
+sound/Tone_000/%.pat: $(top_srcdir)/instruments/Tone_000/%.pat
+	$(MKDIR_P) "$(@D)"
+	cp -p "$<" "$@"
+
 docs_DATA = README.md sfx_config.h
 docsdir = $(prefix)/$(PARENT_PACKAGE)
 
-EXTRA_DIST = sounddat docs
+EXTRA_DIST = sounddat instrumpats instrumconf docs
 
 sound/%.dat:
 	$(MKDIR_P) "$(@D)"
